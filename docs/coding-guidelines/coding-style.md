@@ -1,7 +1,10 @@
 C# Coding Style
+C# 代码风格说明
 ===============
 
-The general rule we follow is "use Visual Studio defaults".
+'以下翻译使用机器翻译方案，有不准确的地方，请结合英文原文理解
+
+The general rule we follow is "use Visual Studio defaults".  
 我们遵循的一般规则是“使用Visual Studio默认值”。
 
 1. We use [Allman style](http://en.wikipedia.org/wiki/Indent_style#Allman_style) braces, where each brace begins on a new line. A single line statement block can go without braces but the block must be properly indented on its own line and must not be nested in other statement blocks that use braces (See rule 18 for more details). One exception is that a `using` statement is permitted to be nested within another `using` statement by starting on the following line at the same indentation level, even if the nested `using` contains a controlled block.  

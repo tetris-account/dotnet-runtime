@@ -76,10 +76,11 @@ The general rule we follow is "use Visual Studio defaults".
     - Never use single-line form (for example: `if (source == null) throw new ArgumentNullException("source");`)
     - Using braces is always accepted, and required if any block of an `if`/`else if`/.../`else` compound statement uses braces or if a single statement body spans multiple lines.
     - Braces may be omitted only if the body of *every* block associated with an `if`/`else if`/.../`else` compound statement is placed on a single line.  
+
 当使用单语句if时，我们遵循以下约定:
--永远不要使用单行形式(例如:' if (source == null) throw new ArgumentNullException("source"); ')
--使用大括号总是可以接受的，如果' if ' / ' else if ' /…/ ' else '复合语句使用大括号，或者如果单个语句体跨越多行。
--只有当*每个*块的主体与' if ' / ' else if ' /…/ ' else '复合语句放在单行上。
+- 永远不要使用单行形式(例如:' if (source == null) throw new ArgumentNullException("source"); ')  
+- 使用大括号总是可以接受的，如果' if ' / ' else if ' /…/ ' else '复合语句使用大括号，或者如果单个语句体跨越多行。  
+- 只有当*每个*块的主体与' if ' / ' else if ' /…/ ' else '复合语句放在单行上。  
 
 20. Make all internal and private types static or sealed unless derivation from them is required.  As with any implementation detail, they can be changed if/when derivation is required in the future.  
 将所有内部类型和私有类型设置为静态或密封，除非需要从它们派生。与任何实现细节一样，如果/当将来需要派生时，可以更改它们。
